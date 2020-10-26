@@ -27,7 +27,9 @@ API test Project is created with the following libraries:
 
 ## SetUp
 * Clone the git repo
-   *  $ git clone https://github.com/darkomitric7/NulTien.git
+```
+$ git clone https://github.com/darkomitric7/NulTien.git
+```
 
 * Open project in Visual Studio
 
