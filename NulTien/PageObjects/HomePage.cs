@@ -41,7 +41,6 @@ namespace NulTien.PageObjects
         {
             logger.Debug("Home Page Open()");
             driver.Url = LOGIN_URL;
-
             return this;
         }
 

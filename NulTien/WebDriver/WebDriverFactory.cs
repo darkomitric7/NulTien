@@ -31,7 +31,7 @@ namespace TestAutomtionProject.WebDriver
                     chromeOptions.AddArguments("--disable-notifications");
                     //chromeOptions.AddArguments("--headless");
                     chromeOptions.AddArguments("start-maximized");
-                    chromeOptions.AddUserProfilePreference("disable-popup-blocking", "true");
+                    //chromeOptions.AddUserProfilePreference("disable-popup-blocking", "true");
                     driver = new ChromeDriver(chromeOptions);
                     return driver;
                 case "ie":
