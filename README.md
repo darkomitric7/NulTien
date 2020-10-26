@@ -1,7 +1,7 @@
 ## Table of contents
-[General info](#General info)
-[Technologies](Technologies)
-[Setup](SetUp)
+* [General info](#General info)
+* [Technologies](#Technologies)
+* [Setup](#SetUp)
 
 ## General info
 This project is test automation framework for REST-API and GUI automation testing. All required test tasks (UI automation challenge and API automation challenge) are stored the TestCases folder. GUI test cases can be run on chrome or firefox.
