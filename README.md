@@ -1,7 +1,7 @@
 ## Table of contents
-[General info] 
-[Technologies] 
-[Setup]
+[General info](#General info)
+[Technologies](Technologies)
+[Setup](SetUp)
 
 ## General info
 This project is test automation framework for REST-API and GUI automation testing. All required test tasks (UI automation challenge and API automation challenge) are stored the TestCases folder. GUI test cases can be run on chrome or firefox.
@@ -23,7 +23,7 @@ UI test Project is created with libraries:
 * RestSharp version: v106.11.7
 * Newtonsoft.Json version: v12.0.3 
 
-## Setup
+## SetUp
 * Clone the git repo
    *  $ git clone https://github.com/darkomitric7/NulTien.git
 
