@@ -26,13 +26,13 @@ API test Project is created with the following libraries:
 * Newtonsoft.Json version: v12.0.3 
 
 ## SetUp
-* Clone the git repo
+Clone the git repo
 ```
 $ git clone https://github.com/darkomitric7/NulTien.git
 ```
 
-* Open project in Visual Studio
+Open project in Visual Studio
 
-* Install Nuget packages
+Install Nuget packages
 
 
