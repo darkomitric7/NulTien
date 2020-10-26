@@ -1,5 +1,5 @@
 ## Table of contents
-* [General info](#general info)
+* [General info](#general-info)
 * [Technologies](#Technologies)
 * [Setup](#SetUp)
 
@@ -18,8 +18,10 @@ UI test Project is created with libraries:
 * Selenium.Chrome.WebDriver version: v.85.0.0 
 * Selenium.WebDriver.GeckoDriver version: v0.27.0 
 * DotNetSeleniumExtras.PageObjects version: v.3.11.0
-* DotNetSeleniumExtras.WaitHelpers version: 1.21 
-* API test Project is created with the following libraries:
+* DotNetSeleniumExtras.WaitHelpers version: 1.21
+* NLog version: v4.7.5
+
+API test Project is created with the following libraries:
 * RestSharp version: v106.11.7
 * Newtonsoft.Json version: v12.0.3 
 
