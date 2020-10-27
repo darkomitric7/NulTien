@@ -16,7 +16,6 @@ UI test Project is created with libraries:
 * Nunit3TestAdapter version: v3.17.0 
 * Selenium.WebDriver version: 3.141.0 
 * Selenium.Chrome.WebDriver version: v.85.0.0 
-* Selenium.WebDriver.GeckoDriver version: v0.27.0 
 * DotNetSeleniumExtras.PageObjects version: v.3.11.0
 * DotNetSeleniumExtras.WaitHelpers version: 1.21
 * NLog version: v4.7.5
