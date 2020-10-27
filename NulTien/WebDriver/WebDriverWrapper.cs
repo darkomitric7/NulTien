@@ -12,13 +12,10 @@ namespace TestAutomtionProject.WebDriver
     {
         private IWebDriver driver;
 
-        protected int implicitTimeout = 10;
-
         public IWebDriver GetDriver()
         {
             driver = WebDriverFactory.CreateDriver();
             driver.Manage().Window.Maximize();
-            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(implicitTimeout);
 
             return driver;
         }
