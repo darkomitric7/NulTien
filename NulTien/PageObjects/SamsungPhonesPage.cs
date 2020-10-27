@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TestAutomtionProject.PageObjects;
+using TestAutomtionProject.Utils;
 
 namespace NulTien.PageObjects
 {
@@ -46,7 +47,7 @@ namespace NulTien.PageObjects
             catch (StaleElementReferenceException)
             {
                 IList<IWebElement> elementList = driver.FindElements(By.XPath("//span[text()='" + dropdownName + "']"));
-                WaitForElementToBeClickable(elementList[1], 5);
+                WaitForElementToBeClickable(elementList[1], Time.MEDIUM);
                 elementList[1].Click();
             }
             
@@ -56,14 +57,14 @@ namespace NulTien.PageObjects
         {
             logger.Debug("SelectSortOption()");
             IWebElement SortOptionsLocator = driver.FindElement(By.XPath("//div[text()='" + sortOption + "']"));
-            WaitForElementToBeClickable(SortOptionsLocator, 5);
+            WaitForElementToBeClickable(SortOptionsLocator, Time.MEDIUM);
             SortOptionsLocator.Click();
         }
 
         public void ClickOnSearchButton()
         {
             logger.Debug("ClickOnSearchButton()");
-            WaitForElementToBeClickable(SearchButton, 5);
+            WaitForElementToBeClickable(SearchButton, Time.MEDIUM);
             SearchButton.Click();
         }
 

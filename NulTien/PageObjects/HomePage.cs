@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 using TestAutomtionProject.Extensions;
 using TestAutomtionProject.PageObjects;
 using NLog;
+using TestAutomtionProject.Utils;
 
 namespace NulTien.PageObjects
 {
@@ -61,14 +62,14 @@ namespace NulTien.PageObjects
         public void ClosePopUp()
         {
             logger.Debug("ClosePopUp()");
-            WaitForElementToBeClickable(PopUpCloseButtonLocator, 5);
+            WaitForElementToBeClickable(PopUpCloseButtonLocator, Time.MEDIUM);
             PopUpCloseButtonLocator.Click();
         }
 
         public SamsungPhonesPage ClickOnMyChoice()
         {
             logger.Debug("ClickOnMyChoice()");
-            WaitForElementToBeClickable(SuggestionBoxMyChoice, 10);
+            WaitForElementToBeClickable(SuggestionBoxMyChoice, Time.MEDIUM);
             SuggestionBoxMyChoice.Click();
             return new SamsungPhonesPage(driver);
         }

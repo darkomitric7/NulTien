@@ -13,12 +13,12 @@ namespace NulTien.TestCases
     {
 
         private static string baseUrl;
-        private readonly string city = "Belgrade";
-        private readonly string stateCode = "RS";
-        private readonly string apiKey = "972f472747fa6e6a460b75cd1ef37d5b";
-        private readonly string mode = "xml";
-        private readonly string units = "metric";
-        private readonly string lang = "sr";
+        private const string city = "Belgrade";
+        private const string stateCode = "RS";
+        private const string apiKey = "972f472747fa6e6a460b75cd1ef37d5b";
+        private const string mode = "xml";
+        private const string units = "metric";
+        private const string lang = "sr";
 
         [SetUp]
         public void SetUp()

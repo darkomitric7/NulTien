@@ -14,9 +14,9 @@ namespace NulTien.TestCases
 {
     class SeleniumTestCase
     {
-        private readonly string TEXT_TO_SEARCH = "Samsung";
-        private readonly string expectedTitle = "KupujemProdajem | Praktično sve...";
-        private readonly string sortOption = "Popularnije";
+        private const string TEXT_TO_SEARCH = "Samsung";
+        private const string expectedTitle = "KupujemProdajem | Praktično sve...";
+        private const string sortOption = "Popularnije";
 
         private IWebDriver driver;
 
